@@ -1,8 +1,11 @@
 # main text of home
 name: Dara Hayes
-bio: Dev and Ops at <a href="https://nearform.com">nearForm</a> | Sufferer of impostor syndrome
+bio: I Like to Write JavaScript | Dev and Ops at <a href="https://nearform.com">nearForm</a>
 
 description: Personal website and blog of Dara Hayes - Software engineer at nearForm. Here you will find posts mostly about Node.js and Devops
+url: darahayes.com
+title: darahayes.com
+
 # if it's an external image, update below for true
 # better with square images
 external-image: false
@@ -13,9 +16,6 @@ picture: assets/images/profile.jpg
 resume: false
 resume-external: false
 resume-url:
-
-url: darahayes.com
-# your url: http://USERNAME.github.io
 
 permalink: /:title/
 
@@ -51,7 +51,7 @@ email: dara.s.hayes@gmail.com
 authors:
     darahayes:
         name: Dara Hayes
-        bio: Dev and Ops at <a href="https://nearform.com">nearForm</a> | Sufferer of impostor syndrome
+        bio: I Like to Write JavaScript | Dev and Ops at <a href="https://nearform.com">nearForm</a>
         external-image: false
         picture: assets/images/profile.jpg
         twitter: darragh_hayes
