@@ -38,7 +38,7 @@ photos:
   caption="The Finished Product"
   banner=true %}
 
-For NodeConfEU 2015, we built and demoed Node.js powered cocktail machines! This was the last thing I did during my internship at nearForm.
+For [NodeConfEU 2015](https://www.nearform.com/blog/nodeconf-eu-2015/), we built and demoed Node.js powered cocktail machines! This was the last thing I did during my internship at [nearForm](https://nearform.com).
 
 We made four machines, each one powered by a raspberry pi with pumps for pouring drinks. All of the machines connected back to a server running on the local Wifi network, allowing conference attendees to order drinks using a browser.
 
@@ -48,7 +48,7 @@ caption="Early Stage Testing." %}
 
 In a week, we built the machines, wrote the software and perfected the recipes. (manual testing was required!). It was a pretty intense project. We were still crushing bugs and putting out fires minutes before the demo. Even during the demo we were pushing out software updates without interruption to the service!
 
-In the end, over 100 drinks were served in an hour, and the project was a huge success! For the first time, I delivered and deployed software to a live audience. All the code can be found at our Github page liquid-io. Check out the videos and photos below.
+In the end, over 100 drinks were served in an hour, and the project was a huge success! For the first time, I delivered and deployed software to a live audience. All the code can be found at our Github page [liquid-io](https://github.com/liquid-io). Check out the videos and photos below.
 
 {% include youtube.html 
     url="https://youtube.com/embed/cDsIYBXfHy0"
