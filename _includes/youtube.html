@@ -1,0 +1,13 @@
+{% assign url = include.url %}
+{% assign caption = include.caption %}
+
+<div class="yt-embed">
+  <div class="yt-frame">
+    <iframe width="560" height="310" src="{{ url }}" frameborder="0" allowfullscreen align="middle"></iframe>
+  </div>
+  {% if caption %} 
+    <div class="yt-caption">
+      <figcaption class="caption">{{ caption }}</figcaption>
+    </div>
+  {% endif %}
+</div>

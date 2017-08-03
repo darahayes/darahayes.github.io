@@ -1,0 +1,19 @@
+{% assign url = include.url %}
+{% assign alt = include.alt %}
+{% assign caption = include.caption %}
+{% assign bannerImage = include.banner %}
+
+<div class="image-container">
+  {% if bannerImage %}
+  <div class="banner-image">
+  {% else %}
+  <div class="image">
+  {% endif %}
+    <img src="{{ url }}" alt="{{ alt }}">
+  </div>
+  {% if caption %}
+    <div class="image-caption">
+      <figcaption class="caption">{{ caption }}</figcaption>
+    </div>
+  {% endif %}
+</div>

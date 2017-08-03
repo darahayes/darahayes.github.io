@@ -1,0 +1,20 @@
+<!-- Create your slider and add images -->
+{% assign photos = include.photos %}
+
+<div id="slider">
+    {% for photo in photos %}
+      <img src="{{ photo.url }}" alt="{{ photo.alt }}"/>
+    {% endfor %}
+  <a class="iis-previous-nav"></a>
+  <a class="iis-next-nav"></a>
+</div>
+
+<script>
+  var slider = new IdealImageSlider.Slider({
+    selector: '#slider',
+    disableNav: false,
+    keyboardNav: true,
+    maxHeight: '500',
+    height: 'auto'
+  });
+</script>
