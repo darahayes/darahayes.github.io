@@ -2,9 +2,7 @@
 name: Dara Hayes
 bio: Dev and Ops at <a href="https://nearform.com">nearForm</a> | Sufferer of impostor syndrome
 
-# twitter summary info
-description: A blog about technology and stuff related
-
+description: Personal website and blog of Dara Hayes - Software engineer at nearForm. Here you will find posts mostly about Node.js and Devops
 # if it's an external image, update below for true
 # better with square images
 external-image: false
@@ -100,3 +98,15 @@ gems:
 
 jekyll-mentions:
     base_url: https://github.com
+
+exclude:
+  - README.md
+  - .gitignore
+  - travis.yml
+  - Gemfile
+  - Gemfile.lock
+  - FAQ.md
+  - .editorconfig
+  - projects.html
+  - travis.sh
+  - Rakefile
