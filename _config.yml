@@ -1,6 +1,6 @@
 # main text of home
 name: Dara Hayes
-bio: Dev and Ops | Sufferer of impostor syndrome
+bio: Dev and Ops at <a href="https://nearform.com">nearForm</a> | Sufferer of impostor syndrome
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -53,7 +53,7 @@ email: dara.s.hayes@gmail.com
 authors:
     darahayes:
         name: Dara Hayes
-        bio: Dev and Ops | Sufferer of impostor syndrome
+        bio: Dev and Ops at <a href="https://nearform.com">nearForm</a> | Sufferer of impostor syndrome
         external-image: false
         picture: assets/images/profile.jpg
         twitter: darragh_hayes
