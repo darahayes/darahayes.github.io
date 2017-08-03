@@ -1,7 +1,7 @@
 ---
 title: "Node.js Cocktail Machines"
 layout: post
-date: 28-07-2017
+date: 05-09-2016
 tag:
 - nodejs
 - javascript

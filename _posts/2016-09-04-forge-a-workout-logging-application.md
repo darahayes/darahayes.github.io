@@ -1,7 +1,7 @@
 ---
 title: "Forge – A Workout Logging Application built with Ionic"
 layout: post
-date: 29-07-2017
+date: 04-09-2016
 tag:
 - ionic
 - javascript
