@@ -2,9 +2,17 @@
 name: Dara Hayes
 bio: I Like to Write JavaScript | Dev and Ops at <a href="https://nearform.com">nearForm</a>
 
+title: darahayes.com
 description: Personal website and blog of Dara Hayes - Software engineer at nearForm. Here you will find posts mostly about Node.js and Devops
 url: darahayes.com
-title: darahayes.com
+author: Dara Hayes
+
+social:
+  name: Dara Hayes
+  links:
+    - https://twitter.com/darragh_hayes
+    - https://github.com/darahayes
+    - https://www.linkedin.com/in/darahayes/
 
 # if it's an external image, update below for true
 # better with square images
@@ -49,12 +57,12 @@ github: darahayes
 email: dara.s.hayes@gmail.com
 
 authors:
-    darahayes:
-        name: Dara Hayes
-        bio: I Like to Write JavaScript | Dev and Ops at <a href="https://nearform.com">nearForm</a>
-        external-image: false
-        picture: assets/images/profile.jpg
-        twitter: darragh_hayes
+  darahayes:
+    name: Dara Hayes
+    bio: I Like to Write JavaScript | Dev and Ops at <a href="https://nearform.com">nearForm</a>
+    external-image: false
+    picture: assets/images/profile.jpg
+    twitter: darragh_hayes
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
