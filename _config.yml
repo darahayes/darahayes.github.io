@@ -4,8 +4,10 @@ bio: I Like to Write JavaScript | Dev and Ops at <a href="https://nearform.com">
 
 title: darahayes.com
 description: Personal website and blog of Dara Hayes - Software engineer at nearForm. Here you will find posts mostly about Node.js and Devops
-url: darahayes.com
+url: https://darahayes.com
 author: Dara Hayes
+logo: /assets/images/darahayes-logo-small.png
+
 
 social:
   name: Dara Hayes
@@ -40,7 +42,8 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-twitter: darragh_hayes
+twitter:
+  username: darragh_hayes
 # google: mygoogle
 instagram: dara_hayes
 # pinterest: mypinterest
