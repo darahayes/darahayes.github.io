@@ -12,7 +12,6 @@ tag:
 category: blog
 author: darahayes
 description: Dara Hayes Speaks about how to detect a memory leak in node.js applications using tools like heapdump, memwatch and node's --inspect flag
-image: /assets/images/darahayes-logo.png
 ---
 
 {% include youtube.html 
