@@ -9,7 +9,8 @@ tag:
 - documentation
 category: blog
 author: darahayes
-description: 
+description: Documenting APIs can be tricky and time consuming. Today I will show you how to keep your Hapi application's docs lean and accurate with hapi-swagger.
+image: /assets/images/darahayes-logo.png
 ---
 
 Over the past two years I've worked on many applications built with [Hapi.js](https://npmjs.com/package/hapi). It's been our main choice for building APIs at [nearForm](https://www.nearform.com) for some time. 

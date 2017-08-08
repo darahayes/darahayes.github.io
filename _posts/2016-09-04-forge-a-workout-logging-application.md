@@ -12,6 +12,7 @@ tag:
 category: blog
 author: darahayes
 description: A cross platform workout tracking app built with ionic/javascript
+image: /assets/images/darahayes-logo.png
 ---
 
 {% include image.html

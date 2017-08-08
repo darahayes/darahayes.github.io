@@ -11,6 +11,7 @@ tag:
 category: blog
 author: darahayes
 description: Featured on the Openshift blog, Dara Hayes Speaks about one potential approach to using Minishift and OpenShift as a Development Environment for Node.js, including support for instant reload and stateful services.
+image: /assets/images/darahayes-logo.png
 ---
 
 {% include youtube.html 

@@ -1,15 +1,15 @@
 <nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
     <ul class="list">
-        {% if page.title != "Home" %}
+        <!-- {% if page.title != "Home" %}
             <li class="item">
                 <a class="link" href="/">Home</a>
             </li>
-        {% endif %}
+        {% endif %} -->
 
         {% if site.blog == true %}
             {% if page.title != "Blog" %}
                 <li class="item">
-                    <a class="link" href="/blog">Blog</a>
+                    <a class="link" href="/">Blog</a>
                 </li>
             {% endif %}
         {% endif %}

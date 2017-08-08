@@ -28,6 +28,7 @@ photos:
     alt: Cocktail Machine Button
   - url: /assets/images/nodeconf-2015-cocktail-machines-9.jpeg
     alt: Cocktail Machine Button
+image: /assets/images/darahayes-logo.png
 ---
 
 {% include slider-script.html %}
