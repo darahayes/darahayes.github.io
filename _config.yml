@@ -98,6 +98,9 @@ show-author: true
 # do you want some animations?
 animation: false
 
+markdown: kramdown
+highlighter: rouge
+
 gems:
   - jekyll-seo-tag
   - jekyll-gist
