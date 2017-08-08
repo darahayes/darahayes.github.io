@@ -19,7 +19,7 @@ Documenting APIs can be tricky and time consuming. In many cases, we don't have 
 Today I will show you how to keep your Hapi application's docs __lean__ but fairly __accurate__ with the help of [hapi-swagger](https://npmjs.com/package/hapi-swagger). 
 
 
-If you want you can scroll to the very bottom for the full code.
+If you want you can scroll to the very bottom for the full code. If you've already used hapi-swagger, you might be interested in [my other article](/get-latest-swagger-ui-hapi-swagger-next/) about getting the latest Swagger UI with my fork [hapi-swagger-next](https://npmjs.com/package/hapi-swagger-next).
 
 ### Swagger
 
@@ -215,6 +215,8 @@ caption="Swagger Docs Showing Example Response" %}
 ### Conclusion
 
 So there you have it! By adding a tiny amount of metadata to our Hapi routes, we can get auto generated docs! It's not perfect, but it's pretty decent. Because these docs are generated from the code itself, they tend to stay fairly accurate and up to date. They're minimalistic and don't provide very deep insight but they're more than enough for things like developer onboarding.
+
+There's only one pain point for me. hapi-swagger serves an older version of the swagger UI (version 2 as opposed version 3). To solve this problem I've published a fork called [hapi-swagger-next](https://npmjs.com/package/hapi-swagger-next) which serves the latest Swagger UI. You can read about it in [this article.](/get-latest-swagger-ui-hapi-swagger-next/)
 
 ### Full code
 
