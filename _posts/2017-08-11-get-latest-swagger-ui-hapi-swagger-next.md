@@ -1,7 +1,7 @@
 ---
 title: "Get the Latest Swagger UI with hapi-swagger-next"
 layout: post
-date: 07-08-2017
+date: 11-08-2017
 tag:
 - nodejs
 - hapi
