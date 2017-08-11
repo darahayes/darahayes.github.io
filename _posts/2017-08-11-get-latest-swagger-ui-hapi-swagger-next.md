@@ -9,7 +9,7 @@ tag:
 - documentation
 category: blog
 author: darahayes
-description: 
+description: A drop-in replacement for hapi-swagger that delivers the latest version of the Swagger UI. Get the newest Swagger UI in your Hapi app instantly.
 ---
 
 > A fork of the excellent hapi-swagger module that delivers the latest version of the Swagger UI
