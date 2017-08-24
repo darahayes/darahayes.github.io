@@ -12,7 +12,7 @@ logo: /assets/images/darahayes-logo-small.png
 social:
   name: Dara Hayes
   links:
-    - https://twitter.com/darragh_hayes
+    - https://twitter.com/darahayess
     - https://github.com/darahayes
     - https://www.linkedin.com/in/darahayes/
 
@@ -43,9 +43,9 @@ disqus:
 
 # if you don't have any of social below, comment the line
 twitter:
-  username: darragh_hayes
+  username: darahayess
 # google: mygoogle
-instagram: dara_hayes
+instagram: darahayess
 # pinterest: mypinterest
 linkedin: darahayes
 # youtube: myyoutube
@@ -65,7 +65,7 @@ authors:
     bio: I Like to Write JavaScript | Dev and Ops at <a href="https://nearform.com">nearForm</a>
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: darragh_hayes
+    twitter: darahayess
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
