@@ -1,9 +1,9 @@
 # main text of home
 name: Dara Hayes
-bio: I Like to Write JavaScript | Dev and Ops at <a href="https://nearform.com">nearForm</a>
+bio: I Like to Write JavaScript | Engineering at Red Hat Mobile
 
 title: darahayes.com
-description: Personal website and blog of Dara Hayes - Software engineer at nearForm. Here you will find posts mostly about Node.js and Devops
+description: Personal website and blog of Dara Hayes - Software engineer at Red Hat Mobile.
 url: https://darahayes.com
 author: Dara Hayes
 logo: /assets/images/darahayes-logo-small.png
@@ -62,7 +62,7 @@ email: dara.s.hayes@gmail.com
 authors:
   darahayes:
     name: Dara Hayes
-    bio: I Like to Write JavaScript | Dev and Ops at <a href="https://nearform.com">nearForm</a>
+    bio: I Like to Write JavaScript | Engineering at Red Hat Mobile
     external-image: false
     picture: assets/images/profile.jpg
     twitter: darahayess
