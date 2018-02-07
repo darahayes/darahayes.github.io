@@ -121,7 +121,7 @@ You can use the `godoc` tool (installed with Go) to build docs.
 godoc -http=":6060"
 ```
 
-This runs a local webserver where you can browse the documentation for all packages on your machine. You can visit the docs for your package at the  `/pkg/github.com/<username>/<library>` endpoint.
+This runs a local webserver where you can browse the documentation for all packages on your machine. You can visit the docs for your package at the  `/pkg/github.com/<username>/<library>` path.
 
 Here's a screenshot of the documentation for the above function:
 
