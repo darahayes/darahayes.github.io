@@ -9,7 +9,9 @@
   {% else %}
   <div class="image">
   {% endif %}
-    <img src="{{ url }}" alt="{{ alt }}">
+    <a href="{{ url }}" target="_blank"></a>
+      <img src="{{ url }}" alt="{{ alt }}">
+    </a>
   </div>
   {% if caption %}
     <div class="image-caption">
