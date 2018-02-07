@@ -34,7 +34,7 @@ import (
 
 *Great, just push it to Github and job done! Why am I still reading this post?*
 
-**But wait, there's more!** Dumping your code on Github will work, but if you hope someone will actually use it, you need to go the extra mile. I've compiled a checklist (mostly from other docs and blog posts) to ensure you write a high quality and attractive library. The best part? All of this stuff is super simple! 
+**But wait, there's more!** Dumping your code on Github will work, but if you hope someone will actually use it, you need to go the extra mile. I've compiled a checklist (mostly from other docs and blog posts) to ensure you write a high quality library. The best part? All of this stuff is super simple! 
 
 In fact, you probably know this stuff already, but you just want to know some things specific to Golang.
 
