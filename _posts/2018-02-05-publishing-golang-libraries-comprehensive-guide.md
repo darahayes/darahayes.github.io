@@ -121,7 +121,7 @@ You can use the `godoc` tool (installed with Go) to build docs.
 godoc -http=":6060"
 ```
 
-This runs a local webserver where you can browse the documentation for all packages on your machine. You can visit the docs for your package at `http://localhost:6060/pkg/github.com/<username>/<library>`
+This runs a local webserver where you can browse the documentation for all packages on your machine. You can visit the docs for your package at `localhost:6060/pkg/github.com/<username>/<library>`
 
 Here's a screenshot of the documentation for the above function:
 
@@ -130,7 +130,7 @@ Here's a screenshot of the documentation for the above function:
   alt="Example of Golang API docs"
   caption="Example of Golang API docs" %}
 
-Once you push your library to Github, you can access the same docs online at `https://godoc.org/github.com/<usernme>/<library>`. You should **link the godoc.org documentation in your readme.**
+Once you push your library to Github, you can access the same docs online at `godoc.org/github.com/<usernme>/<library>`. You should **link the godoc.org documentation in your readme.**
 
 This example is trivial but the docs generation is powerful and has some impressive tricks up its sleeve. I recommend you look at this official Golang blog post on [Documenting Go Code](https://blog.golang.org/godoc-documenting-go-code) and this amazing [tutorial](https://godoc.org/github.com/fluhus/godoc-tricks) for more info.
 
