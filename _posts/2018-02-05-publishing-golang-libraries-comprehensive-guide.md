@@ -38,13 +38,36 @@ import (
 
 In fact, you probably know this stuff already, but you just want to know some things specific to Golang.
 
-## Step 1: Tests
+## Step 1: Dependency Management
+
+As a Node.js developer, this is something that tripped me up when I started learning Go. I was sorely missing something like [npm](https://www.npmjs.com/). Although you can use `go get` to fetch your dependencies, a package manager will scale much better in the long run.
+
+I'm going to recommend [dep](https://github.com/golang/dep) because it's being developed by the Golang team. According to the Readme:
+
+> dep is the *official* experiment, but not yet the official tool.
+
+Initializing dep in a project is really simple:
+
+```bash
+dep init
+# creates Gopkg.toml Gopkg.lock vendor/
+```
+
+The init command also works in existing projects. It does a good job of adding the dependencies based off your import statements. You can manually add dependencies too.
+
+```bash
+dep ensure -add github.com/foo/bar github.com/baz/quux
+```
+
+Check out the [getting started guide](https://golang.github.io/dep/docs/introduction.html) to learn more. There are also plenty of other similar tools such as [glide](https://github.com/Masterminds/glide) or [govendor](https://github.com/kardianos/govendor) which you can try too.
+
+## Step 2: Tests
 
 This goes without saying. One of the first things any developer will notice when they land on your library is whether or not you've tested your code. This is especially obvious in Go projects because the common convention is to have test files and source files in the same folder. For example, `foo.go` will have a `foo_test.go` in the same folder.
 
 **Tests before tweets!** You only get once chance to do this right. Make sure you write tests before you start publicizing your code. Check out this wonderful article on [the basics of writing unit tests in Golang](https://blog.alexellis.io/golang-writing-unit-tests/).
 
-## Step 2: Continuous Integration (CI)
+## Step 3: Continuous Integration (CI)
 
 Once you have some tests written, it's really important to use a CI service. At the very minimum this ensures new commits and pull requests against your project are tested. It's completely free for Open Source projects so there's no excuse. I personally love [CircleCI](https://circleci.com) but there are plenty of others such as [Travis](https://travis-ci.org/) and [Codeship](https://codeship.com).
 
@@ -59,7 +82,7 @@ test:
 Technically you don't even need the `circle.yml` file. Most CI services will recognize that your project is written in Go and will automatically run the tests. I still recommend adding the file because **it makes it very clear to other developers** that you are using a CI service.
 
 
-## Step 3: Code Coverage and coveralls.io
+## Step 4: Code Coverage and coveralls.io
 
 Good code coverage does not necessarily mean good quality code, but it's still a decent indicator. A developer is more likely to use your library if it has good code coverage. Golang has coverage reporting built in (awesome!), so you should take advantage of it.
 
@@ -96,7 +119,7 @@ url="/assets/images/coveralls.png"
 alt="Project in coveralls.io"
 caption="A Project in coveralls.io" %}
 
-## Step 4: Documentation and godoc.org
+## Step 5: Documentation and godoc.org
 
 At the very minimum, your library should have a Readme file describes your project. Some things you should include:
 
@@ -134,7 +157,7 @@ Once you push your library to Github, you can access the same docs online at `go
 
 This example is trivial but the docs generation is powerful and has some impressive tricks up its sleeve. I recommend you look at this official Golang blog post on [Documenting Go Code](https://blog.golang.org/godoc-documenting-go-code) and this amazing [tutorial](https://godoc.org/github.com/fluhus/godoc-tricks) for more info.
 
-## Step 5: Go Report Card
+## Step 6: Go Report Card
 
 [goreportcard.com](https://goreportcard.com) is a free service that analyzes Golang projects. Simply enter your project's Github link to receive a detailed report and an overall score. The service checks for a number of issues such as formatting and lint errors, [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) issues, spelling issues and licensing issues.
 
@@ -145,13 +168,13 @@ The tool provides an impressive level of detail and also suggests ways to fix th
   alt="Go Report Card Example"
   caption="Go Report Card Example" %}
 
-## Step 6: License
+## Step 7: License
 
 This is arguably the most important step, yet so many people forget about it. **Your code is not open source if it does not have a license.** Even if the code is available. Without a license, developers and businesses cannot safely use your code. It is up to you to choose the appropriate license. For small libraries I stick to the MIT license as it gives the most freedom. If you're not sure you can try [choosealicense.com](https://choosealicense.com/).
 
 I recommend you add a file called `License` to your repo. [opensource.org](https://opensource.org/licenses) has links to licenses you can copy and paste.
 
-## Step 7: Readme Badges
+## Step 8: Readme Badges
 
 You can tie all of the previous steps together and give your Readme some fancy badges.
 
@@ -171,7 +194,7 @@ The build status and code coverage badges can be found in the CircleCI and Cover
 
 Just make sure you modify the links to match your project in Github.
 
-## Step 8: Draft a Release
+## Step 9: Draft a Release
 
 The last thing I recommend is to [draft a release in Github](https://help.github.com/articles/creating-releases/). This allows other developers to depend on a specific version of your code. A lot of developers are using package managers such as [dep](https://github.com/golang/dep) or [glide](https://github.com/Masterminds/glide) which rely on git tags for versioning. If you are not aware of Semantic Versioning, definitely check out [semver.org](https://semver.org/).
 
