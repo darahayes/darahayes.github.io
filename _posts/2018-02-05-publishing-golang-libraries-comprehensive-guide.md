@@ -16,7 +16,7 @@ I decided I would learn a new programming language in 2018. So, for the past mon
 
 I learned a few lessons along the way, so if you're like me and you're interested in publishing your first, or your second, or even your tenth library written in Go, this post is for you. This is a **comprehensive guide to publishing Golang libraries.**
 
-## How do I publish a Library Written in Go?
+## How do I Publish a Library Written in Go?
 
 Is your library publicly available on Github? If the answer is yes, then you've already published it. Now it's as simple as
 
