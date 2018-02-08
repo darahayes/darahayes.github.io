@@ -121,7 +121,7 @@ caption="A Project in coveralls.io" %}
 
 ## Step 5: Documentation and godoc.org
 
-At the very minimum, your library should have a Readme file describes your project. Some things you should include:
+At the very minimum, your library should have a Readme file that describes your project. Some things you should include:
 
 * High level description and the problem your library solves.
 * Explain why someone would use your library.
